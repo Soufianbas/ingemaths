@@ -1,0 +1,20 @@
+.google-rating { text-align: right; }
+.google-rating strong { display: block; font: 3.8rem/1 "Libre Caslon Display", serif; }
+.google-rating span { color: var(--orange); letter-spacing: .15em; }
+.google-rating p { color: var(--muted); margin-top: 4px; }
+.reviews blockquote { min-height: 410px; }
+.google-reviews-link { display: block; width: max-content; margin: 34px auto 0; font-weight: 700; text-underline-offset: 6px; }
+@media (max-width: 900px) { .google-rating { text-align: left; } }
+@media (max-width: 600px) { .reviews blockquote { min-height: auto; } }
+
+.mission-note { max-width: 1080px; margin: 0 0 48px; padding: 26px 30px; background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--blue); border-radius: 16px; }
+.mission-note strong { display: block; font: 1.55rem "Libre Caslon Display", serif; margin-bottom: 7px; }
+.mission-note p { color: var(--muted); }
+.mission-note a { display: inline-block; margin-top: 10px; color: var(--blue); font-size: .78rem; font-weight: 700; }
+.learning-method { list-style: none; margin: 24px 0 28px; display: grid; gap: 14px; }
+.learning-method li { padding-left: 18px; border-left: 2px solid var(--blue); }
+.learning-method b, .learning-method span { display: block; }
+.learning-method b { font-size: .95rem; }
+.learning-method span { color: var(--muted); font-size: .88rem; margin-top: 2px; }
+@media (max-width: 600px) { .mission-note { padding: 22px; } }
+.course-card small { line-height: 1.45; }
