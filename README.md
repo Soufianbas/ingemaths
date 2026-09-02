@@ -11,7 +11,3 @@ Le projet est un site statique. Ouvrez `index.html` dans un navigateur ou servez
 - `index.html` — contenu de la page
 - `assets/css/` — styles et responsive design
 - `assets/js/` — navigation mobile et interactions
-
-## Personnalisation
-
-Avant publication, remplacez le lien Calendly provisoire présent dans `index.html` par le lien définitif du compte IngéMaths.
